@@ -62,13 +62,19 @@ export default function Home() {
     <section ref={aboutRef} className="aboutSection">
       <p className="sectionTitle">Sobre_</p>
       <div className="aboutContainer">
-        <p className="aboutText">
-        Atualmente, estou concluindo meu bacharel em Design pela Universidade São Judas Tadeu e trabalhando para o Itaú Unibanco como Designer de Produto e Customer Experience.
-        <br /><br />
-        Hoje, atuando nas plataformas digitais do banco, criando e melhorando as diversas funcionalidades, sempre buscando por melhorias a partir de métodos do design estratégico. 
-        <br /><br />
-        Fazendo o uso de ferramentas para a confecção de layouts e prototipação de interfaces, possuo conhecimento avançado nos programas essenciais para a execução das atividades da minha área.
-        </p>
+        <div>
+          <p className="aboutText">
+            Atualmente, estou concluindo meu bacharel em Design pela Universidade São Judas Tadeu e trabalhando para o Itaú Unibanco como Designer de Produto e Customer Experience.
+          </p>
+          <br/>
+          <p className="aboutText">
+            Hoje, atuando nas plataformas digitais do banco, criando e melhorando as diversas funcionalidades, sempre buscando por melhorias a partir de métodos do design estratégico. 
+          </p>
+          <br/>
+          <p className="aboutText">
+            Fazendo o uso de ferramentas para a confecção de layouts e prototipação de interfaces, possuo conhecimento avançado nos programas essenciais para a execução das atividades da minha área.
+          </p>
+        </div>
         <img className="aboutPerfil" src={Perfil} alt="Lucas Perfil"/>
       </div>
       <div className="download">
@@ -143,10 +149,18 @@ export default function Home() {
         </div>
       </div>
       <div className="contactIcons">
-        <img style={{marginRight: "17px"}} src={Linkedin} alt="Linkedin"/>
-        <img style={{marginRight: "17px"}} src={Behace} alt="Behace"/>
-        <img style={{marginRight: "17px"}} src={Facebook} alt="Facebook"/>
-        <img src={Instagram} alt="Instagram"/>
+        <a href="https://www.linkedin.com/in/designerlucaspereira/" target="__blank">
+          <img style={{marginRight: "17px"}} src={Linkedin} alt="Linkedin"/>
+        </a>
+        <a href="https://www.behance.net/lucaspereira16" target="__blank">
+          <img style={{marginRight: "17px"}} src={Behace} alt="Behace"/>
+        </a>
+        <a href="https://www.facebook.com/designerlucaspereira" target="__blank">
+          <img style={{marginRight: "17px"}} src={Facebook} alt="Facebook"/> 
+        </a>
+        <a href="https://www.instagram.com/_lucasoffc_/" target="__blank">
+          <img src={Instagram} alt="Instagram"/>
+        </a>
       </div>
     </section>
   </>)

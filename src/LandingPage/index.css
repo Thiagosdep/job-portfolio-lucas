@@ -50,7 +50,7 @@
 
 @media (max-width: 600px) {
   .navHeader {
-    padding: 70px 30px;
+    padding: 70px 24px;
   }
 }
 
@@ -118,7 +118,7 @@
   .mainAbout {
     width: 100%;
     left: 0;
-    padding: 30px;
+    padding: 24px;
   }
 }
 
@@ -198,8 +198,8 @@
 
 @media (max-width: 600px) {
   .aboutSection {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
@@ -218,16 +218,18 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 @media (max-width: 930px) {
   .aboutContainer {
+    padding-top: 40px;
     flex-direction: column;
   }
 }
 
 .aboutText {
+  text-indent: 1.5em;
   margin: 0;
   min-width: 460px;
   max-width: 460px;
@@ -271,7 +273,7 @@
 
 @media (max-width: 930px) {
   .aboutPerfil {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 0;
     min-width: 300px;
     min-height: 300px;
@@ -292,7 +294,7 @@
 
 @media (max-width: 930px) {
   .download {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 
@@ -331,7 +333,7 @@
 @media (max-width: 930px) {
   .projectsSection {
     height: 100%;
-    padding: 50px 20px;
+    padding: 50px 24px;
   }
 }
 
@@ -342,14 +344,16 @@
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  padding: 100px 50px 50px 50px;
+  padding: 80px 50px 50px 50px;
 }
 
 @media (max-width: 930px) {
   .projectsContainer {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 0;
+    padding-left: 0;
     width: 100%;
+    justify-content: space-between;
   }
 }
 
@@ -367,13 +371,13 @@
     max-width: 118px;
     min-height: 204px;
     min-width: 118px;
-    margin: 0 8px;
+    margin: 0 0 32px 0;
   }
 }
 
 .imgCard {
-  position: relative;
   width: 100%;
+  height: 204px;
   box-shadow: 2px 10px 8px rgba(175, 175, 175, 0.5);
 }
 /* CONTACTS */
@@ -389,7 +393,7 @@
 @media (max-width: 930px) {
   .contactSection {
     height: 100%;
-    padding: 50px 20px;
+    padding: 50px 24px;
   }
 }
 
@@ -397,11 +401,12 @@
   display: flex;
   width: 60%;
   justify-content: center;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 @media (max-width: 930px) {
   .contactContainer {
+    padding-top: 40px;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -491,7 +496,8 @@
 
 @media (max-width: 930px) {
   .send {
-    margin-top: 5px;
+    width: 140px;
+    margin-top: 32px;
     left: 0;
   }
 }
@@ -510,7 +516,7 @@
   .logoContainer {
     min-width: 80%;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 54px;
     margin-left: 0;
   }
 }
