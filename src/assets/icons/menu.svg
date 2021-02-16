@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu</title>
+    <g id="menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" id="Rectangle">
+            <rect fill="#000000" opacity="0" transform="translate(18.500000, 18.500000) rotate(180.000000) translate(-18.500000, -18.500000) " x="0" y="0" width="37" height="37"></rect>
+            <rect fill="#FFFFFF" x="5" y="17" width="28" height="3" rx="0.95"></rect>
+            <rect fill="#FFFFFF" x="5" y="25" width="28" height="3" rx="0.95"></rect>
+            <rect fill="#FFFFFF" x="5" y="9" width="28" height="3" rx="0.95"></rect>
+        </g>
+    </g>
+</svg>
